@@ -1,0 +1,50 @@
+.Card {
+    width: 31%;
+    height: 100%;
+    /* background-color: gray; */
+    border-radius: 15px;
+    background-size: cover;
+    cursor: pointer;
+    background-image: url("../../assets/images/card-removebg-preview.png");
+    background-size: cover;
+}
+
+.Card2 {
+    width: 40%;
+    height: 90%;
+    border-radius: 15px;
+    cursor: pointer;
+    background-image: url("../../assets/images/card-removebg-preview2.png");
+    background-size: cover;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes AnimeCard {
+    0% {opacity: 0;}
+    5% {opacity: 0;}
+}
+
+.AnimeCard {
+    animation-name: AnimeCard;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
+    width: 31%;
+    height: 100%;
+    border-radius: 15px;
+    background-size: cover;
+}
+
+.AnimeCard-2 {
+    animation-name: AnimeCard;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
+    width: 40%;
+    height: 90%;
+    border-radius: 15px;
+}
